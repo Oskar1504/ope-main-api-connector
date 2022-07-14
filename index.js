@@ -1,7 +1,7 @@
 require("dotenv").config()
 const axios = require('axios')
 const https = require('https')
-const Log = require('./server/helper/Log')
+const Log = require('../../server/helper/Log')
 
 module.exports = {
     addApplication: function (app, env){
